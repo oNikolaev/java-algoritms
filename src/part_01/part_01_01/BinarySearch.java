@@ -29,12 +29,18 @@ public class BinarySearch {
     public static void main(String[] args) {
         int[] whiteList = In.readInts(args[0]);
         Arrays.sort(whiteList);
+        System.out.println("Сортировка выполнена, в массиве " + whiteList.length + " элементов.");
+
+        System.out.print("Введите целое число для поиска: ");
 
         while (!StdIn.isEmpty()) {
             int key = StdIn.readInt();
             if (rank(key, whiteList) == -1){
-                StdOut.println(key);
+                System.out.println("Число не найдено! " + key);
             }
+            else
+                System.out.println("Число найдено. " + key);
+            System.out.print("Введите целое число для поиска: ");
         }
     }
 }
