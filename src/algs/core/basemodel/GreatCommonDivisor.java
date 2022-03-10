@@ -1,4 +1,4 @@
-package algs.core;
+package algs.core.basemodel;
 
 import java.util.Scanner;
 
