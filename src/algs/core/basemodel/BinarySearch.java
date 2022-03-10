@@ -1,12 +1,12 @@
-package part_01.part_01_01;
+package algs.core.basemodel;
 
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdIn;
-import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Arrays;
 
 public class BinarySearch {
+
     public static int rank(int key, int[] a) {
         int lo = 0;
         int hi = a.length - 1;

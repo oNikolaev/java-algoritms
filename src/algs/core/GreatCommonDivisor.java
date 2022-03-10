@@ -1,4 +1,4 @@
-package part_01;
+package algs.core;
 
 import java.util.Scanner;
 

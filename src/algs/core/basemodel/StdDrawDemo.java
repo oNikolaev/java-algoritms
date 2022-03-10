@@ -1,4 +1,4 @@
-package part_01.part_01_01;
+package algs.core.basemodel;
 
 import edu.princeton.cs.algs4.StdDraw;
 import edu.princeton.cs.algs4.StdRandom;

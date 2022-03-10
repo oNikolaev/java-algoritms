@@ -1,4 +1,4 @@
-package part_01.part_01_01;
+package algs.core.basemodel;
 
 public class SamplePrintF {
     public static void main(String[] args) {
