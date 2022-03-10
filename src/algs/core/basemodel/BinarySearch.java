@@ -30,7 +30,6 @@ public class BinarySearch {
     public static void main(String[] args) {
         int[] whiteList = In.readInts(args[0]);
         Arrays.sort(whiteList);
-        System.out.println("Сортировка выполнена, в массиве " + whiteList.length + " элементов.");
 
         while (!StdIn.isEmpty()) {
             int key = StdIn.readInt();
